@@ -11,9 +11,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Me Gusta App',
+      title: 'Like App',
       theme: ThemeData(
-        primarySwatch: Colors.cyan,
+        primarySwatch: Colors.purple,
       ),
       home: const LikeButton(),
     );
@@ -47,7 +47,7 @@ class _LikeButtonState extends State<LikeButton> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Me Gusta App'),
+        title: const Text('Like App'),
       ),
       body: Center(
         child: Column(
